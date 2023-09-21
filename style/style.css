@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav .navbar {
+    display: flex;
+    align-items: center;
+    border-radius: 70px;
+}
+
+nav .navbar img {
+    border-radius: 70%;
+    width: 40px;    
+}
+
+nav h1 {
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+nav ul li{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+}
+nav ul li a:hover{
+  color: white;
+}
+nav ul li .menu {
+    text-shadow: 0 0 5px white;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    justify-content: space-between;
+    backdrop-filter: blur(50px);
+    z-index: 9999;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0, 0, 70px, 7px white;
+}
+
+.foto img {
+    width: 300px;
+    border-radius: 50%;
+    z-index: 1;
+    border-color: aliceblue;
+    border-style: solid;
+    backdrop-filter: blur(50px);
+    box-shadow: 0px 0px 70px 9px white;
+}
+
+div .foto h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+
+.home {
+    min-height: 100vh;
+    background: skyblue;
+    display: grid;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 20;
+}
+
+.foto {
+    display: grid;
+    place-items: center;
+}
+
+.home h1 {
+    text-align: center;
+    color:snow;
+}
+
+div .light .png2 {
+  width: 30pxpx;
+  height: 30px;
+  position: relative;
+}
+
+.about {
+    min-height: 25vh;
+    background: silver;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    z-index: 20;
+}
+
+.contact {
+    min-height: 25vh;
+    background:mintcream;
+}
+.contact table{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+}
